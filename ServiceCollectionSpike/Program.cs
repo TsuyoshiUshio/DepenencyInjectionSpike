@@ -15,15 +15,14 @@ namespace ServiceCollectionSpike
             //    options.OptionA = "Hello";
             //});
 
-            var someOptions = new SomeOptions
-            {
-                OptionB = "World",
-                OptionC = "Again"
-            };
             services.AddSomeClient(options =>
             {
                 options.OptionA = "Hello";
-            }).SetSomeClientOptions(someOptions);
+            }).SetSomeClientOptions(new SomeOptions
+            {
+                OptionB = "World",
+                OptionC = "Again"
+            });
 
             var someService = services.BuildServiceProvider().GetRequiredService<ISomeService>();
             someService.DisplayOptions();
