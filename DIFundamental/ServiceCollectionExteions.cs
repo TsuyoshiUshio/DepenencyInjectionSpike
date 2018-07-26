@@ -9,7 +9,7 @@ namespace DIFundamental
     {
         public static void AddSpecialClient(this IServiceCollection services)
         {
-            services.AddSingleton<ISpecialClient>();
+            services.AddSingleton<ISpecialClient, SpecialClient>();
         }
     }
 }

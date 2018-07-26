@@ -106,6 +106,8 @@ namespace DIFundamental
                 return client;
             });
 
+            services.AddSpecialClient();
+
             var provider = services.BuildServiceProvider();
 
             // Singleton
@@ -141,6 +143,10 @@ namespace DIFundamental
             {
                 Console.WriteLine($"NoImplementation (GetRequiredService) Exception: {e.Message}");
             }
+
+            // Extension Method
+            var specialClient = provider.GetService<ISpecialClient>();
+            Console.WriteLine($"SpecialClient(): Type: {specialClient.GetType()} Id: {specialClient.Id}");
 
             Console.ReadLine();
 
