@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27729.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollectionSpike", "ServiceCollectionSpike\ServiceCollectionSpike.csproj", "{9F7B2375-7F68-4C3C-89B8-876827105907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceCollectionSpike", "ServiceCollectionSpike\ServiceCollectionSpike.csproj", "{9F7B2375-7F68-4C3C-89B8-876827105907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIFundamental", "DIFundamental\DIFundamental.csproj", "{A4CD9880-33F3-433C-ABE9-91E14E7591EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9F7B2375-7F68-4C3C-89B8-876827105907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F7B2375-7F68-4C3C-89B8-876827105907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F7B2375-7F68-4C3C-89B8-876827105907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4CD9880-33F3-433C-ABE9-91E14E7591EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CD9880-33F3-433C-ABE9-91E14E7591EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CD9880-33F3-433C-ABE9-91E14E7591EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CD9880-33F3-433C-ABE9-91E14E7591EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
